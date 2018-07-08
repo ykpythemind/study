@@ -22,4 +22,5 @@ dog2.extend Test2
 dog2.piyo
 puts dog2.class.ancestors.inspect
 
+puts dog2.singleton_class
 puts dog2.singleton_class.instance_methods.include?(:piyo)
